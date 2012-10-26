@@ -1,9 +1,8 @@
-Thesis 2 Copy Seed
-=================
+# Thesis 2 Copy Seed
 
 Copies the seed data from one skin to another.  You can then generate a zip file for the new skin and distribute it normally.
 
-How to use.
+## How to use.
 
 Edit $original_skin and $new_skin variables to match the class names of the skins you want to copy the data from and to respectively.
 Upload copy_skin.php to your root WP folder.
