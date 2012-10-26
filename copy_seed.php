@@ -20,7 +20,7 @@ define('WP_DEBUG', false);
 require('wp-blog-header.php');
 
 foreach ($items as $item) {
-	$seed[$item] = get_option(sprintf('%s_%s', $original_skin, $item));
+	$seed[$item] = get_option(sprintf('%s_%s', $original_skin, $item), '');
 	update_option(sprintf('%s_%s', $new_skin, $item), $seed[$item]);
 }
 echo "[$new_skin] seeded with [$original_skin] data.";
